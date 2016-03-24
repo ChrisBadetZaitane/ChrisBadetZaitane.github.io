@@ -141,7 +141,7 @@ line-height: 40px;
 float:right;
 margin-top: 2%;	
 }
-input, select {
+ select {
  background-color:rgba(201,228,231, 0.9);
 }
 label
