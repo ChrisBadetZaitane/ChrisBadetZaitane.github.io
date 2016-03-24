@@ -11,7 +11,7 @@ color:forestgreen;
       margin-left: auto;
       margin-right: auto;
       width: 670px; 
-      position:absolute;  
+      position:relative;  
 	  font-family:Helvetica;	  
     }
     .game {
@@ -163,7 +163,7 @@ display:inline-block;
 .mgsV{
 width:34%;
 height:20%;
-margin-left:33%;
+margin-left:35%;
 
 }
 
