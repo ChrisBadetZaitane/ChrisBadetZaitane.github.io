@@ -1,5 +1,5 @@
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
     .Header {
         background-color: darkcyan;
         position: fixed;
@@ -95,7 +95,7 @@
     }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
     .Header {
         background-color: darkcyan;
         position: fixed;
