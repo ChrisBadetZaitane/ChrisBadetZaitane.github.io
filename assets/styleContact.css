@@ -1,0 +1,86 @@
+body{
+    font-family: serif;
+	background-color: rgb(34,109,112);
+	/*--background-image : url(image_fond.jpg);*/
+    margin: 0;
+}
+
+.active {
+    background-color: #338295;
+}
+
+.page{
+    width            :  auto;
+    max-width        :  800px;
+	margin-top       :  0;
+	margin-left      :  auto;
+	margin-right     :  auto;
+	margin-bottom    :  10px;
+	padding-bottom   :  10px;
+    padding-top: 80px;
+	color: 				#404040;
+
+	text-align       : justify;
+	letter-spacing   : 0.02ex;
+	line-height      :  1.5em;
+    height: auto;
+}
+
+.Secteur{
+    font-family: helvetica;
+    font-size: 14px;
+    background-color: rgba(201, 228, 231, 0.9);
+    width        :auto;
+	margin-left  : 30px;
+    margin-right  : 30px;
+    margin-top  : 30px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.Secteur img {
+    max-width: 140px;
+    height: 160px;
+    margin-right: 1em;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+}
+
+.Secteur Section, .Secteur form{
+    margin: 2em;
+    padding: 10px;
+    border-top       : solid 1px rgb(34,109,112);
+	border-left      : solid 1px rgb(34,109,112);
+    border-bottom: solid 1px rgb(34,109,112);
+    border-right: solid 1px rgb(34,109,112);
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+}
+
+.Secteur textarea{
+    width: 100%;
+    height: 7em;
+}
+.Secteur .bouton{
+    display: block;
+}
+
+CSS : 
+
+
+p{
+    font-family:cursive;  
+}
+em {
+    font-weight: bold;
+}
+
+.Secteur h1{
+    font-family: helvetica;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 12px;
+}
+
+

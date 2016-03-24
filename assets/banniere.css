@@ -1,0 +1,212 @@
+
+@media all and (min-width: 800px) {
+    .Header {
+        background-color: darkcyan;
+        position: fixed;
+        background-attachment: fixed;
+        width: 100%;
+        height: 90px;
+    }
+    #Top_Head {
+        background: #000000 url(banniere.jpg) no-repeat scroll center center;
+        height: 50px;
+        margin: 0px;
+        width: auto;
+    }
+    #Top_Head a {
+        text-decoration: none;
+    }
+    #Top_Head h1 {
+        color: cornflowerblue;
+        background-color: black;
+        margin: 0 auto;
+        text-shadow: 2px 2px 12px;
+        width: 7.8em;
+        height: 45px;
+        margin-left: 1.5em;
+        padding-top: 5px;
+        font-style: italic;
+        text-align: center;
+    }
+    #Bottom_Head ul {
+        list-style-type: none;
+        height: 40px;
+        margin: 0 auto;
+        padding 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    #Bottom_Head li {
+        display: inline-block;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #Bottom_Head li a {
+        display: block;
+        width: auto;
+        color: white;
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+    }
+    #Bottom_Head li a:hover {
+        background-color: rgb(88, 126, 128);
+    }
+    
+    .dropbtn {
+        display: none;
+        background-color: darkcyan;
+        color: white;
+        padding: 11px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        display: none;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content
+    a:hover {
+        background-color: #f1f1f1
+    }
+    .dropbtn:hover {
+        background-color: rgb(88, 126, 128);
+    }
+    .dropdown:hover
+    .dropdown-content {
+        display: block;
+    }
+    #Bottom_Head,
+    .dropbtn {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .Header {
+        background-color: darkcyan;
+        position: fixed;
+        background-attachment: fixed;
+        width: 100%;
+        height: 15%;
+    }
+    #Top_Head {
+        background: #000000 url(banniere.jpg) no-repeat scroll center center;
+        height: 50px;
+        margin: 0px;
+        width: auto;
+    }
+    #Top_Head a {
+        text-decoration: none;
+    }
+    #Top_Head h1 {
+        color: cornflowerblue;
+        background-color: black;
+        text-shadow: 2px 2px 12px;
+        height: 45px;
+        margin-left: 1.5em;
+        padding-top: 5px;
+        font-style: italic;
+        text-align: center;
+        
+        position: absolute;
+        width: 100%;
+        margin: 0;
+    }
+    #Bottom_Head ul {
+        list-style-type: none;
+        height: 40px;
+        margin: 0;
+        padding 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    #Bottom_Head li {
+        display: none;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #Bottom_Head li a {
+        display: block;
+        width: auto;
+        color: white;
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+    }
+    #Bottom_Head li a:hover {
+        background-color: rgb(88, 126, 128);
+    }
+    
+    .dropbtn {
+        background-color: darkcyan;
+        color: white;
+        padding: 11px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        margin-left: 45%;
+        margin-bottom: 2%;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        background-color: rgba(88,126,128,0.9); 
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content
+    a:hover {
+        background-color: #f1f1f1;
+    }
+    .dropbtn:hover {
+        background-color: rgb(88, 126, 128);
+    }
+    .dropdown:hover
+    .dropdown-content {
+        display: block;
+    }
+    #Bottom_Head,
+    .dropbtn {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 620px) {
+    #Top_Head h1{
+        position: absolute;
+        width: 100%;
+        margin: 0;
+    }   
+}
+
+
+/*  <a href="Accueil.html"> Home </a>
+                            <a href="Details.html"> Détails technique</a>
+                            <a href="Contact.html"> Contact </a>
+                            <a href="xxxx.html"> Search </a> 
+                            <a href="Connexion.html">  Connexion</a>
+                            <a href="panier.html"> Panier </a>*/
