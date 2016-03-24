@@ -11,7 +11,7 @@ color:forestgreen;
       margin-left: auto;
       margin-right: auto;
       width: 670px; 
-      position:relative;  
+      position:absolute;  
 	  font-family:Helvetica;	  
     }
     .game {
