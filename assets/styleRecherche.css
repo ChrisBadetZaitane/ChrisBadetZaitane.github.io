@@ -1,0 +1,251 @@
+body{
+    font-family: serif;
+	background-color: rgb(34,109,112);
+	/*--background-image : url(image_fond.jpg);*/
+    margin: 0;
+}
+
+.page {
+	width            :  auto;
+    max-width        :  1000px;
+	margin-top       :  0px;
+	margin-left      :  auto;
+	margin-right     :  auto;
+	margin-bottom    :  10px;
+	padding-bottom   :  10px;
+    padding-top: 80px;
+
+	color: 				#404040;
+	text-align       : justify;
+	letter-spacing   : 0.02ex;
+	line-height      :  1.5em;
+}
+
+.sect1 {
+    font-family: helvetica;
+    font-size: 14px;
+    background-color : rgba(201,228,231, 0.9);
+    margin-top  : 30px;
+	width        :auto;
+	margin-left  : 30px;
+	margin-right : 30px;
+}
+
+.Title_Rech h1, .Title_Rech img{
+    display: inline-block;
+    
+}
+
+.Title_Rech {
+    border-bottom: dotted;
+    text-align: center;
+}
+
+.Title_Rech h1{
+    margin-top: 40px;
+    width: 55%;
+	vertical-align: top;
+    text-align: justify;
+    text-shadow: 2px 2px 12px;
+    text-align: center;
+    font-style: italic;
+}
+
+.Title_Rech img{
+    max-width:  70px;
+    width: 15%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.DDogma{
+	margin: 20px;
+    border-bottom: dotted;
+}
+
+
+
+.DDogma #Button_plus, .DDogma #Button_plus3 {
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+.DDogma #Panier, .DDogma #Panier3 {
+    float: right;
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+.DDogma img, .DDogma .Descript{
+	display: inline-block;
+    
+}
+.DDogma img{
+    min-height: 120px;
+    min-width: 100px;
+    width: 15%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+}
+
+.DDogma img:hover {
+    width:180px;
+    height: 200px;
+}
+
+.DDogma .Descript{
+	width: 75%;
+    margin-left: 12%;
+	vertical-align: top;
+    text-align: justify;
+    border-top       : solid 1px rgb(34,109,112);
+	border-left      : solid 1px rgb(34,109,112);
+    border-bottom: solid 1px rgb(34,109,112);
+    border-right: solid 1px rgb(34,109,112);
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+    padding: 5px;
+}
+
+
+.Uncharted {
+	margin: 20px;
+    border-bottom: dotted;
+}
+.Uncharted #Button_plus1, .Uncharted #Button_plus4 {
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+.Uncharted #Panier1, .Uncharted #Panier4 {
+    float: right;
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+.Uncharted img, .Uncharted .Descript{
+	display: block;
+	
+}
+.Uncharted img {
+	min-height: 120px;
+    min-width: 100px;
+    width: 15%;
+    height: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40%;
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+}
+
+.Uncharted img:hover {
+    width:180px;
+    height: 200px;
+}
+
+.Uncharted .Descript {
+	width: 75%;
+    margin-left: 12%;
+	vertical-align: top;
+    text-align: justify;
+    border-top       : solid 1px rgb(34,109,112);
+	border-left      : solid 1px rgb(34,109,112);
+    border-bottom: solid 1px rgb(34,109,112);
+    border-right: solid 1px rgb(34,109,112);
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+    padding: 5px;
+}
+
+.Street{
+	margin: 20px;
+    border-bottom: dotted;
+}
+
+.Street #Button_plus2, .Street #Button_plus5 {
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+
+.Street #Panier2, .Street #Panier5  {
+    float: right;
+    background-color : rgb(248,253,253);
+    border-top       : solid 1px rgb(9,72,75);
+	border-left      : solid 1px rgb(9,72,75);
+	border-right     : solid 1px rgb(9,72,75);
+	border-bottom    : solid 1px rgb(9,72,75);
+    text-decoration: none;
+    color: rgb(88,126,128);
+    text-shadow: 2px 2px 12px;
+}
+
+.Street img, .Street .Descript{
+	display: inline-block;
+	
+}
+.Street img{
+	min-height: 120px;
+    min-width: 100px;
+    width: 15%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+}
+
+.Street img:hover {
+    width:180px;
+    height: 200px;
+}
+
+.Street .Descript{
+	width: 75%;
+    margin-left: 12%;
+	vertical-align: top;
+    text-align: justify;
+    border-top       : solid 1px rgb(34,109,112);
+	border-left      : solid 1px rgb(34,109,112);
+    border-bottom: solid 1px rgb(34,109,112);
+    border-right: solid 1px rgb(34,109,112);
+    box-shadow: 5px 5px 2px rgba(34,109,112,0.5);
+    padding: 5px;
+}
+
+
+p{
+	color:black;
+}

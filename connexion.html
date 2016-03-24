@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title> Resultat de recherche </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/styleConnexion.css">
+    <link rel="stylesheet" type="text/css" href="assets/banniere.css">
+</head>
+
+<body>
+    <header>
+    <div class="Header">
+        <div id="Top_Head">
+            <a href="index.html"><h1> Time Gaming </h1></a>
+
+
+        </div>
+        <div id="Bottom_Head">
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="index.html"> Home </a>
+                    <a href="details.html"> Détails technique</a>
+                    <a href="contact.html"> Contact </a>
+                    <a href="recherche.html"> Search </a>
+                    <a href="connexion.html">  Connexion</a>
+                    <a href="panier.html"> Panier </a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="details.html"> Détails technique</a></li>
+                <li><a href="contact.html"> Contact </a></li>
+
+                <li>
+                    <div id="searchbar">
+                        <form action="recherche.html" class="formulaire">
+                            <input class="champ" type="text" placeholder="Recherche" />
+                            <input class="bouton" type="submit" value="ok" />
+                        </form>
+                    </div>
+                </li>
+                <li class="active"><a href="connexion.html">  Connexion</a></li>
+                <li><a href="panier.html"> Panier </a></li>
+                <!--ajout d'une class="active" 
+                .active {
+                background-color: #4CAF50;
+                }
+                -->
+            </ul>
+        </div>
+    </div>
+    </header>
+    <div class="page">
+        <div class="Secteur">
+            <div id="test">
+                <form action="index.html">
+                    <h2> Déjà un compte ?</h2>
+                    <label for="Email"> Email </label>
+                    <input type="email" id="Email" name="Email">
+                    <label for="Password"> Password </label>
+                    <input type="password" id="Password" name="Password">
+
+                    <input type="submit" value="Log in">
+                </form>
+
+                <form action="index.html">
+                    <h2> Création de compte </h2>
+                    <label for="Nom"> Nom </label>
+                    <input type="text" id="Nom" name="Nom">
+                    <label for="Prenom"> Prenom </label>
+                    <input type="text" id="Prenom" name="Prenom">
+                    <label for="Email"> Email </label>
+                    <input type="email" name="Email">
+                    <label for="Password"> Password </label>
+                    <input type="password" name="Password">
+
+                    <input type="submit" value="Let's go !">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
